@@ -4,8 +4,9 @@ const router = require('express').Router();
 const movie = require('../db/models/movie');
 
 // Get
-router.get('/', (req, res) => {
-	res.send('funciona');
+router.get('/', async (req, res) => {
+	const movieArrayDB = await movie.find();
+	res.json(movieArrayDB);
 });
 
 module.exports = router;
