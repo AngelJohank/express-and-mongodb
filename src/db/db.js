@@ -14,4 +14,4 @@ db.connect(uri)
 // Handle errors
 db.connection.on('error', e => {
 	console.error(e);
-})
+});
