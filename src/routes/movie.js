@@ -9,4 +9,10 @@ router.get('/', async (req, res) => {
 	res.json(movieArrayDB);
 });
 
+// Post
+
+router.post('/', async (req, res) => {
+	res.send('working');
+});
+
 module.exports = router;
