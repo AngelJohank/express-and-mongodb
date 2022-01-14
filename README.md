@@ -21,7 +21,7 @@
 
 	    node_modules/
 	    src/
-	    .env <--------------- Your custom file
+	    .env
 
 - Inside the ".env" file put your db login credentials
 
