@@ -1,4 +1,5 @@
 const express = require('express');
+cont cors = require('cors');
 
 // Initializers
 const app = express();
@@ -8,6 +9,7 @@ require('./db/db');
 app.set('port', process.env.PORT || 3000);
 
 // Middlewares
+app.use(cors());
 app.use(express.urlencoded({extended: false}));
 app.use(express.json());
 
