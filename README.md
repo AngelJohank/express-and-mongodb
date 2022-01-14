@@ -1,4 +1,2 @@
 # express-and-mongodb
-Test
--
-Please Do not Touch the database
+This is a simple test
