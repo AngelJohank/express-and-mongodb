@@ -23,7 +23,7 @@
 	    src/
 	    .env
 
-- Inside the file put your db login credentials
+- Inside the ".env" file put your db login credentials
 
         user = <username>
         password = <password>
