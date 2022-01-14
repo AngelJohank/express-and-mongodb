@@ -8,7 +8,7 @@ const uri = `mongodb+srv://${user}:${password}@cluster0.gcgom.mongodb.net/${dbNa
 
 // Connect to Database
 db.connect(uri)
-	.then(() => console.log('DB connection established'))
+	.then((db) => console.log('DB connection established'))
 	.catch(e => console.error(e));
 
 // Handle errors
