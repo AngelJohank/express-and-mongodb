@@ -1,6 +1,9 @@
 const express = require('express');
 const cors = require('cors');
 
+// System Variables
+if (process.env.NODE_ENV != 'production') require('dotenv').config();
+
 // Initializers
 const app = express();
 require('./db/db');
