@@ -21,7 +21,7 @@
 	    src/
 	    .env
 
-- Inside the ".env" file put your db login credentials
+- Inside the ".env" file put your Mongodb Atlas login credentials
 
         user = <username>
         password = <password>
