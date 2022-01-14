@@ -3,8 +3,9 @@ const { Schema } = mongoose;
 
 // Setup Schema
 const movieSchema = new Schema({
-	name: String,
-	description: String
+	name: {type: String, required: true},
+	description: {type: String, required: true},
+	date: Date
 });
 
 // Setup Model

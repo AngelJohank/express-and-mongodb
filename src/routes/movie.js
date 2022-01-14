@@ -5,14 +5,20 @@ const movie = require('../db/models/movie');
 
 // Get
 router.get('/', async (req, res) => {
-	const movieArrayDB = await movie.find();
-	res.json(movieArrayDB);
+	const limit = req.body.limit;
+	const movieArrayDB = await movie.find({}, {_id: 0, __v: 0}).sort({date: -1}).limit(limit);
+	res.send(movieArrayDB);
 });
 
 // Post
-
 router.post('/', async (req, res) => {
-	res.send('working');
+	let newDoc = req.body;
+	newDoc.date = new Date;
+
+	const doc = await movie.create(newDoc, (e, doc) => {
+		if (!e) res.status(200).send(doc);
+		else res.status(400).send(e);
+	});
 });
 
 module.exports = router;
