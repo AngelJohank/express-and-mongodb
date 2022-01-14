@@ -5,8 +5,7 @@ const movie = require('../db/models/movie');
 
 // Get
 router.get('/', async (req, res) => {
-	const limit = req.body.limit;
-	const movieArrayDB = await movie.find({}, {_id: 0, __v: 0}).sort({date: -1}).limit(limit);
+	const movieArrayDB = await movie.find({}, {_id: 0, __v: 0}).sort({date: -1});
 	res.send(movieArrayDB);
 });
 
