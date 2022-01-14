@@ -1,5 +1,5 @@
 const express = require('express');
-cont cors = require('cors');
+const cors = require('cors');
 
 // Initializers
 const app = express();
