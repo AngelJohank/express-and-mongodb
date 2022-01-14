@@ -1,6 +1,5 @@
 // MongoDB setup
 const db = require('mongoose');
-const { Schema } = db;
 
 // Setup URI
 const {user, password, dbName} = require('./config.json');
