@@ -4,10 +4,8 @@
 <br>
 
 <p align="center">
-	<a href="#" target="_blank " rel="noopener noreferrer">
-		<img alt="logo example" width="100" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/885px-Node.js_logo.svg.png">
-		<img alt="logo example" width="60" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Antu_mongodb.svg/768px-Antu_mongodb.svg.png">
-	</a>
+	<img alt="logo example" width="100" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/885px-Node.js_logo.svg.png">
+	<img alt="logo example" width="60" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Antu_mongodb.svg/768px-Antu_mongodb.svg.png">
 </p>
 
 <br>
