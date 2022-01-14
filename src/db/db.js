@@ -2,7 +2,7 @@
 const db = require('mongoose');
 
 // Setup URI
-const {user, password, dbName} = require('./config.json');
+const {user, password, dbName} = process.env;
 const uri = `mongodb+srv://${user}:${password}@cluster0.gcgom.mongodb.net/${dbName}?retryWrites=true&w=majority`;
 
 // Connect to Database
