@@ -1,4 +1,4 @@
-# <p align="center">Express and Mongodb simple api</p>
+# <p align="center">Express and Mongodb</p>
 
 <br>
 <br>
