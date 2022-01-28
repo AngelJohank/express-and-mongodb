@@ -9,7 +9,7 @@
 </p>
 
 <br>
-<h4 align="center">This is a simple server made with nodejs and ♥</h4>
+<h4 align="center">This is a simple connection made with nodejs and ♥</h4>
 <br>
 <br>
 
